@@ -18,9 +18,9 @@ function NavBar() {
                     <p className='cursor-pointer hover:text-blue-600 transition duration-200'>Gmail</p>
                     <p className='cursor-pointer hover:text-blue-600 transition duration-200'>Images</p>
                     {accountName ? (
-                        <p className='font-bold bg-green-700 text-white rounded-full p-1 cursor-pointer inline-flex items-center'>
+                        <button className='bg-green-700 p-1 rounded-full w-10 h-10 text-white'>
                             {accountName}
-                        </p>
+                        </button>
                     ) : (
                         <button 
                             className='bg-green-700 p-1 rounded-full w-10 h-10 text-white'
