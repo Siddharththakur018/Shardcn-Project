@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # Shardcn-Project
 # Shardcn-Project
 # Shardcn-Project
+# shadcn-project
